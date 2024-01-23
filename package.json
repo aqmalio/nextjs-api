@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-api",
+  "name": "nodejs-api",
   "version": "1.0.0",
   "description": "Nodejs ExpressJs API",
   "main": "src/app.js",
