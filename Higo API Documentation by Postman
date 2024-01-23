@@ -1,0 +1,283 @@
+{
+	"info": {
+		"_postman_id": "9497e781-74c1-4d64-802f-9520a52d0bf9",
+		"name": "Higo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3124220"
+	},
+	"item": [
+		{
+			"name": "Top 5 User Data per Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/user/by?location=The Rustic Tavern",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						"by"
+					],
+					"query": [
+						{
+							"key": "location",
+							"value": "The Rustic Tavern"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Detail User Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/user/:id/detail",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						":id",
+						"detail"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "200"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Segmentation Digital Interest dalam persentase",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/segment/digital-interest",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"segment",
+						"digital-interest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Segmentation Merk HP dalam persentase",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/segment/brand-device",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"segment",
+						"brand-device"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Segmentation Gender dalam persentase",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/segment/gender",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"segment",
+						"gender"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Segmentation Age Group dalam persentase",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/segment/age",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"segment",
+						"age"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Total Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/summary/total-data",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"summary",
+						"total-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jam Ramai keseluruhan data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/summary/busy-hour",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"summary",
+						"busy-hour"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hari Ramai keseluruhan data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/summary/busy-day",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"summary",
+						"busy-day"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jumlah New and Returning keseluruhan data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/summary/total-new-returning-users",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"summary",
+						"total-new-returning-users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jumlah New and Returning per hari",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/summary/new-returning-users",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"summary",
+						"new-returning-users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jumlah Unique User keseluruhan data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/summary/total-unique-users",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"summary",
+						"total-unique-users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Jumlah Unique User per hari",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "44.195.106.160:3000/api/summary/users-per-day",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"summary",
+						"users-per-day"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
