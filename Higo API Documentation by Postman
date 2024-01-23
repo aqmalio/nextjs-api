@@ -14,7 +14,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/user/by?location=The Rustic Tavern",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -40,7 +40,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/user/:id/detail",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -67,7 +67,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/segment/digital-interest",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -87,7 +87,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/segment/brand-device",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -107,7 +107,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/segment/gender",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -127,7 +127,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/segment/age",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -147,7 +147,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/summary/total-data",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -167,7 +167,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/summary/busy-hour",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -187,7 +187,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/summary/busy-day",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -207,7 +207,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/summary/total-new-returning-users",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -227,7 +227,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/summary/new-returning-users",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -247,7 +247,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/summary/total-unique-users",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
@@ -267,7 +267,7 @@
 				"url": {
 					"raw": "44.195.106.160:3000/api/summary/users-per-day",
 					"host": [
-						"localhost"
+						"44.195.106.160"
 					],
 					"port": "3000",
 					"path": [
