@@ -5,7 +5,8 @@ services:
   nodejs-app:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile  # Specify the path to your Dockerfile
+    container_name: nodejs-app
     working_dir: /app
     env_file: ./.env
     volumes:
